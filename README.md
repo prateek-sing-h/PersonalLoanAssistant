@@ -42,7 +42,7 @@ Sanction Letter Agent – Generates a digital loan approval letter
 ├── index.html       # Chat UI layout
 ├── style.css        # Styling, colors, layout
 ├── script.js        # All logic and agent workflow
-└── assets/          # Optional images/screenshots
+└── assets/          #  images/screenshots
 
 💻 Tech Stack
 
