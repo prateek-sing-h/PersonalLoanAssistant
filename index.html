@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Loan Sales Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="main-container">
+
+    <!-- LEFT WELCOME PANEL -->
+    <div class="left-panel">
+        <h1>Welcome to Your<br>AI Personal Loan Assistant</h1>
+
+        <p class="tagline">
+            Experience instant, intelligent and hassle-free loan assistance powered by modern Agentic AI.
+        </p>
+
+        <div class="features">
+            <h3>Why Choose This Assistant?</h3>
+            <ul>
+                <li>⚡ Instant Eligibility Check</li>
+                <li>🤖 AI-Based Personalized Guidance</li>
+                <li>📄 Auto-Generated Sanction Letter</li>
+                <li>🔐 Secure & Transparent Verification</li>
+            </ul>
+        </div>
+
+        <p class="footer-text">Powered by Agentic AI • Designed for BFSI Excellence</p>
+    </div>
+
+    <!-- RIGHT CHAT PANEL -->
+    <div class="chat-container">
+
+        <div class="chat-header">
+            <h2>AI Loan Assistant</h2>
+            <p class="subtext">Chat • Verify • Approve • Download Letter</p>
+        </div>
+
+        <div class="chat-box" id="chatBox"></div>
+
+        <!-- Typing Indicator -->
+        <div id="typingIndicator" class="typing hidden">
+            <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+        </div>
+
+        <div class="chat-input">
+            <input type="text" id="userInput" placeholder="Type your message here..." />
+            <button onclick="sendMessage()">Send</button>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
